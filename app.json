@@ -1,9 +1,10 @@
+
 {
-    "name": "Bumblebee Session Generator",
-    "description": "I'm Web Session Generator by Blacktappy",
-    "logo": "",
+    "name": "sigma-session",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/ljvbox.jpg",
     "repository": "https://github.com/Black-Tappy/bumblebee-pair-case",
-    "keywords": ["@Xcelsama"],
+    "keywords": ["MUZAN-SIGMA"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
@@ -13,7 +14,7 @@
         "required": false 
       },
       "MESSAGE": {
-        "description": "",
+        "description": "Just Leave This Blank",
         "value": "",
         "required": false 
       }
